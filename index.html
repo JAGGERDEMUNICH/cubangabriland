@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUBANGABRILAND 2026 — El Evento Más Esperado del Año</title>
+  <meta name="description" content="CUBANGABRILAND 2026. Sábado 3 de octubre. San Blas, Madrid. El evento más esperado del año. Noche épica. Leyendas reales. Una sola cita." />
+  <meta name="theme-color" content="#0a0c14" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="CUBANGABRILAND 2026" />
+  <meta property="og:description" content="Noche épica. Leyendas reales. Una sola cita. Sábado 3 de octubre de 2026 — San Blas, Madrid." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-cover.jpg" />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon inline SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a0c14'/><text y='.9em' font-size='80' x='10'>🔥</text></svg>" />
+</head>
+<body>
+
+  <!-- PARTICLES CANVAS -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ============================================================
+       HEADER / NAV
+  ============================================================ -->
+  <header id="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="logo-link">
+        <span class="logo-text">CGL<span class="logo-year">2026</span></span>
+      </a>
+      <nav class="main-nav" id="main-nav">
+        <a href="#concepto" class="nav-link">El Evento</a>
+        <a href="#datos" class="nav-link">Info</a>
+        <a href="#roadmap" class="nav-link">Timeline</a>
+        <a href="#especial" class="nav-link">Edición</a>
+        <a href="#normas" class="nav-link">Acceso</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#cta-final" class="nav-link nav-cta">Invitación</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="hero">
+    <div class="hero-bg-layers">
+      <div class="hero-layer hero-layer--aurora"></div>
+      <div class="hero-layer hero-layer--smoke"></div>
+      <div class="hero-layer hero-layer--grid"></div>
+      <div class="hero-layer hero-layer--vignette"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        INVITACIÓN PRIVADA · SAN BLAS, MADRID
+      </div>
+
+      <h1 class="hero-title reveal reveal--delay-1">
+        <span class="hero-title--main">CUBANGA<br class="title-break">BRILAND</span>
+        <span class="hero-title--year">2026</span>
+      </h1>
+
+      <p class="hero-tagline reveal reveal--delay-2">
+        El evento más esperado del año
+      </p>
+
+      <div class="hero-date reveal reveal--delay-3">
+        <span class="hero-date--day">SÁB</span>
+        <span class="hero-date--number">03</span>
+        <span class="hero-date--month">OCT</span>
+        <span class="hero-date--year-small">2026</span>
+      </div>
+
+      <!-- COUNTDOWN -->
+      <div class="countdown reveal reveal--delay-4" id="countdown">
+        <div class="countdown-unit">
+          <span class="countdown-value" id="cd-days">000</span>
+          <span class="countdown-label">días</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="countdown-value" id="cd-hours">00</span>
+          <span class="countdown-label">horas</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="countdown-value" id="cd-minutes">00</span>
+          <span class="countdown-label">min</span>
+        </div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-unit">
+          <span class="countdown-value" id="cd-seconds">00</span>
+          <span class="countdown-label">seg</span>
+        </div>
+      </div>
+
+      <div class="hero-ctas reveal reveal--delay-5">
+        <a href="#cta-final" class="btn btn--primary">
+          <span class="btn-icon">⚡</span> Solicitar invitación
+        </a>
+        <a href="#datos" class="btn btn--ghost">
+          Ver detalles
+        </a>
+      </div>
+
+      <p class="hero-epigraph reveal reveal--delay-5">
+        "Noche épica. Leyendas reales. Una sola cita."
+      </p>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONCEPTO
+  ============================================================ -->
+  <section id="concepto" class="section">
+    <div class="container">
+      <div class="section-label reveal">— El Concepto —</div>
+
+      <h2 class="section-title reveal reveal--delay-1">
+        Esto no es<br/><em>una fiesta cualquiera.</em>
+      </h2>
+
+      <div class="concepto-grid">
+        <div class="concepto-text reveal reveal--delay-2">
+          <p>
+            Desde 2024, cada primer sábado de octubre ocurre algo que no se puede describir del todo bien con palabras. Un lugar. Una gente. Una noche que no se olvida. <strong>CUBANGABRILAND</strong> no es un evento de esos que se montan un viernes con cuatro cervezas. Es una institución. Una tradición que crece. Un culto privado con lista de elegidos.
+          </p>
+          <p>
+            Esta edición llega con más músculo, más alma y más hambre que nunca. El mismo escenario que ya conoces —el mismo que ya es historia—, pero con una inversión mayor, más combustible para la noche y el añadido de que coincide con el cumpleaños del organizador. Lo cual solo puede significar una cosa: <strong>esto va a ser otro nivel.</strong>
+          </p>
+          <p class="concepto-quote">
+            "Si estás aquí, es porque mereces estar aquí."
+          </p>
+        </div>
+
+        <div class="concepto-pillars reveal reveal--delay-3">
+          <div class="pillar">
+            <span class="pillar-icon">🏆</span>
+            <h3>Tradición</h3>
+            <p>Tercera edición. Mismo lugar. Nivel superior.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">🔐</span>
+            <h3>Exclusividad</h3>
+            <p>Solo por invitación. Aforo limitado. Lista cerrada.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">🔥</span>
+            <h3>Leyenda</h3>
+            <p>El evento más esperado del año, otra vez.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">🎂</span>
+            <h3>Histórico</h3>
+            <p>El cumpleaños del organizador marca la fecha.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <span class="divider-emblem">✦</span>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ============================================================
+       DATOS DEL EVENTO
+  ============================================================ -->
+  <section id="datos" class="section section--dark">
+    <div class="container">
+      <div class="section-label reveal">— Datos del Evento —</div>
+      <h2 class="section-title reveal reveal--delay-1">Todo lo que necesitas saber</h2>
+
+      <div class="datos-grid">
+
+        <div class="dato-card reveal">
+          <div class="dato-card__icon">📅</div>
+          <div class="dato-card__content">
+            <span class="dato-card__label">Fecha</span>
+            <span class="dato-card__value">Sábado, 3 de octubre de 2026</span>
+          </div>
+        </div>
+
+        <div class="dato-card reveal">
+          <div class="dato-card__icon">🕕</div>
+          <div class="dato-card__content">
+            <span class="dato-card__label">Hora de inicio</span>
+            <span class="dato-card__value">18:00 h</span>
+          </div>
+        </div>
+
+        <div class="dato-card reveal">
+          <div class="dato-card__icon">📍</div>
+          <div class="dato-card__content">
+            <span class="dato-card__label">Ubicación</span>
+            <span class="dato-card__value">Paseo de Ginebra 35<br/>28022 San Blas, Madrid</span>
+          </div>
+        </div>
+
+        <div class="dato-card reveal">
+          <div class="dato-card__icon">🚇</div>
+          <div class="dato-card__content">
+            <span class="dato-card__label">Cómo llegar</span>
+            <span class="dato-card__value">Metro L2 · Parada Las Rosas<br/>Bus EMT 140, 153 y E2</span>
+          </div>
+        </div>
+
+        <div class="dato-card reveal">
+          <div class="dato-card__icon">🎟️</div>
+          <div class="dato-card__content">
+            <span class="dato-card__label">Precio de entrada</span>
+            <span class="dato-card__value dato-card__value--highlight">5 €</span>
+          </div>
+        </div>
+
+        <div class="dato-card reveal">
+          <div class="dato-card__icon">🔞</div>
+          <div class="dato-card__content">
+            <span class="dato-card__label">Edad mínima</span>
+            <span class="dato-card__value">+20 años</span>
+          </div>
+        </div>
+
+        <div class="dato-card reveal">
+          <div class="dato-card__icon">🥂</div>
+          <div class="dato-card__content">
+            <span class="dato-card__label">Incluye</span>
+            <span class="dato-card__value">Alquiler del local · Comida · Bebidas alcohólicas</span>
+          </div>
+        </div>
+
+        <div class="dato-card reveal">
+          <div class="dato-card__icon">✅</div>
+          <div class="dato-card__content">
+            <span class="dato-card__label">Confirmación</span>
+            <span class="dato-card__value">Obligatoria por cuestiones de aforo</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <span class="divider-emblem">✦</span>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ============================================================
+       TIMELINE / ROADMAP
+  ============================================================ -->
+  <section id="roadmap" class="section">
+    <div class="container">
+      <div class="section-label reveal">— Calendario —</div>
+      <h2 class="section-title reveal reveal--delay-1">El camino hacia la noche</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-body">
+            <span class="timeline-date">Junio – Julio 2026</span>
+            <h3 class="timeline-title">Gestiones del evento</h3>
+            <p>El organizador gestiona los detalles: local, logística, confirmaciones y todos los preparativos detrás de escena.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-body">
+            <span class="timeline-date">Antes del 20 de julio</span>
+            <h3 class="timeline-title">Invitaciones privadas</h3>
+            <p>Las invitaciones llegarán por privado. Si estás en la lista, lo sabrás antes de esa fecha. Si no la recibes, no es tu año.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker">
+            <span class="timeline-dot"></span>
+          </div>
+          <div class="timeline-body">
+            <span class="timeline-date">Verano 2026</span>
+            <h3 class="timeline-title">Preparativos &amp; hype</h3>
+            <p>El hype sube. Confirmas. Te preparas el look. Cuentas los días. El vestidor empieza a importar.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item--final reveal">
+          <div class="timeline-marker">
+            <span class="timeline-dot timeline-dot--final"></span>
+          </div>
+          <div class="timeline-body">
+            <span class="timeline-date">3 de octubre de 2026</span>
+            <h3 class="timeline-title">🔥 La gran noche</h3>
+            <p>San Blas se convierte en leyenda. Otra vez. CUBANGABRILAND 2026 entra en los anales.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <span class="divider-emblem">✦</span>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ============================================================
+       QUÉ HACE ESPECIAL ESTA EDICIÓN
+  ============================================================ -->
+  <section id="especial" class="section section--dark">
+    <div class="container">
+      <div class="section-label reveal">— Edición 2026 —</div>
+      <h2 class="section-title reveal reveal--delay-1">
+        ¿Por qué esta edición<br/><em>es distinta?</em>
+      </h2>
+
+      <div class="especial-grid">
+
+        <div class="especial-card reveal">
+          <div class="especial-card__num">01</div>
+          <div class="especial-card__icon">🏛️</div>
+          <h3>Mismo lugar, más historia</h3>
+          <p>El mismo escenario de 2024 y 2025. Ya tiene alma propia. Ya tiene leyenda. Este año se añade un capítulo más.</p>
+        </div>
+
+        <div class="especial-card reveal">
+          <div class="especial-card__num">02</div>
+          <div class="especial-card__icon">💰</div>
+          <h3>Mayor inversión</h3>
+          <p>El organizador asume más costes. Más alcohol disponible. Más comida a disposición de todos. Más nivel.</p>
+        </div>
+
+        <div class="especial-card reveal">
+          <div class="especial-card__num">03</div>
+          <div class="especial-card__icon">🎂</div>
+          <h3>Cumpleaños del organizador</h3>
+          <p>Esta edición coincide con el cumpleaños del creador del evento. Eso lo cambia todo. Eso eleva el listón.</p>
+        </div>
+
+        <div class="especial-card reveal">
+          <div class="especial-card__num">04</div>
+          <div class="especial-card__icon">📷</div>
+          <h3>Fotógrafo oficial</h3>
+          <p>Habrá fotógrafo oficial del evento. Esos momentos quedan. Vistiéndote bien o lamentándolo después.</p>
+        </div>
+
+        <div class="especial-card reveal">
+          <div class="especial-card__num">05</div>
+          <div class="especial-card__icon">👔</div>
+          <h3>Dress code</h3>
+          <p>Habrá requisitos de vestimenta. Esto es un evento, no un bar de barrio. Ven a la altura.</p>
+        </div>
+
+        <div class="especial-card reveal">
+          <div class="especial-card__num">06</div>
+          <div class="especial-card__icon">🎧</div>
+          <h3>DJ invitado (presumible)</h3>
+          <p>Contaremos presumiblemente con <strong>@theego.dj</strong>, asiduo de Bonded, Vandido y Victoria Club. Volumen moderado, calidad garantizada.</p>
+        </div>
+
+        <div class="especial-card reveal">
+          <div class="especial-card__num">07</div>
+          <div class="especial-card__icon">🎵</div>
+          <h3>Discoteca elegida por el organizador</h3>
+          <p>La discoteca del evento se elige unilateralmente. No hay votación. El organizador sabe lo que hace.</p>
+        </div>
+
+        <div class="especial-card reveal">
+          <div class="especial-card__num">08</div>
+          <div class="especial-card__icon">🌍</div>
+          <h3>Tercera edición</h3>
+          <p>Lo que empezó como una noche se ha convertido en institución. Tres años consecutivos. Sin fallos.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <span class="divider-emblem">✦</span>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ============================================================
+       NORMAS / ACCESO
+  ============================================================ -->
+  <section id="normas" class="section">
+    <div class="container">
+      <div class="section-label reveal">— Normas de acceso —</div>
+      <h2 class="section-title reveal reveal--delay-1">Las reglas del juego</h2>
+      <p class="section-subtitle reveal reveal--delay-2">
+        Esto funciona así. Sin excepciones. Sin negociaciones.
+      </p>
+
+      <div class="normas-list">
+
+        <div class="norma reveal">
+          <div class="norma__icon norma__icon--ok">✓</div>
+          <div class="norma__text">
+            <strong>+20 años obligatorio.</strong> Sin excepciones. Si no tienes 20 cumplidos en la fecha del evento, no entras.
+          </div>
+        </div>
+
+        <div class="norma reveal">
+          <div class="norma__icon norma__icon--ok">✓</div>
+          <div class="norma__text">
+            <strong>Confirmación de asistencia obligatoria.</strong> El aforo es limitado. Sin confirmar, no hay sitio garantizado.
+          </div>
+        </div>
+
+        <div class="norma reveal">
+          <div class="norma__icon norma__icon--ok">✓</div>
+          <div class="norma__text">
+            <strong>Solo por invitación privada.</strong> Las invitaciones llegan por privado antes del 20 de julio. Si no la has recibido, no es tu edición.
+          </div>
+        </div>
+
+        <div class="norma reveal">
+          <div class="norma__icon norma__icon--no">✗</div>
+          <div class="norma__text">
+            <strong>Sin +1s no autorizados.</strong> No hay posibilidad de traer acompañantes no autorizados. El aforo es lo que es.
+          </div>
+        </div>
+
+        <div class="norma reveal">
+          <div class="norma__icon norma__icon--ok">✓</div>
+          <div class="norma__text">
+            <strong>Dress code.</strong> Habrá requisitos de vestimenta. Se comunicarán junto con la invitación. Adáptate.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <span class="divider-emblem">✦</span>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ============================================================
+       GALERÍA / ATMÓSFERA
+  ============================================================ -->
+  <section id="galeria" class="section section--dark">
+    <div class="container">
+      <div class="section-label reveal">— La Atmósfera —</div>
+      <h2 class="section-title reveal reveal--delay-1">Vive el ambiente</h2>
+    </div>
+
+    <div class="galeria-grid">
+      <div class="galeria-item galeria-item--large reveal">
+        <div class="galeria-placeholder galeria-placeholder--1">
+          <div class="galeria-overlay">
+            <span>Noche épica</span>
+          </div>
+        </div>
+      </div>
+      <div class="galeria-item reveal">
+        <div class="galeria-placeholder galeria-placeholder--2">
+          <div class="galeria-overlay">
+            <span>Fuego &amp; hielo</span>
+          </div>
+        </div>
+      </div>
+      <div class="galeria-item reveal">
+        <div class="galeria-placeholder galeria-placeholder--3">
+          <div class="galeria-overlay">
+            <span>San Blas, Madrid</span>
+          </div>
+        </div>
+      </div>
+      <div class="galeria-item reveal">
+        <div class="galeria-placeholder galeria-placeholder--4">
+          <div class="galeria-overlay">
+            <span>La leyenda</span>
+          </div>
+        </div>
+      </div>
+      <div class="galeria-item reveal">
+        <div class="galeria-placeholder galeria-placeholder--5">
+          <div class="galeria-overlay">
+            <span>Leyendas reales</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <span class="divider-emblem">✦</span>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ============================================================
+       FAQ
+  ============================================================ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section-label reveal">— Preguntas frecuentes —</div>
+      <h2 class="section-title reveal reveal--delay-1">Resuelve tus dudas</h2>
+
+      <div class="faq-list">
+
+        <details class="faq-item reveal">
+          <summary class="faq-question">
+            ¿Cómo consigo una invitación?
+            <span class="faq-arrow">→</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Las invitaciones son privadas y se envían directamente por mensaje privado antes del 20 de julio de 2026. No hay proceso de solicitud pública. Si el organizador considera que debes estar, recibirás tu invitación.</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-question">
+            ¿Puedo llevar a alguien que no está invitado?
+            <span class="faq-arrow">→</span>
+          </summary>
+          <div class="faq-answer">
+            <p>No. Por cuestiones de aforo, no se permite la entrada de +1s no autorizados. Cada asistente debe haber recibido su invitación personal.</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-question">
+            ¿Qué incluye la entrada?
+            <span class="faq-arrow">→</span>
+          </summary>
+          <div class="faq-answer">
+            <p>La entrada de 5€ incluye el alquiler del local, comida y bebidas alcohólicas a disposición. Esta edición contará con mayor inversión en ambas cosas que ediciones anteriores.</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-question">
+            ¿Cómo confirmo mi asistencia?
+            <span class="faq-arrow">→</span>
+          </summary>
+          <div class="faq-answer">
+            <p>La confirmación de asistencia es obligatoria y se realizará a través del mismo canal por el que recibirás tu invitación privada. Se indicarán los detalles exactos junto con la invitación.</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-question">
+            ¿Cuál es el dress code?
+            <span class="faq-arrow">→</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Habrá dress code. Los requisitos exactos de vestimenta se comunicarán junto con la invitación privada. Lo que sí es seguro: habrá fotógrafo oficial, así que merece la pena venir bien.</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-question">
+            ¿Habrá fotógrafo?
+            <span class="faq-arrow">→</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Sí. Esta edición cuenta con fotógrafo oficial del evento. Esos recuerdos quedan para siempre.</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-question">
+            ¿Hay edad mínima?
+            <span class="faq-arrow">→</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Sí. El evento es estrictamente para mayores de 20 años. No hay excepciones.</p>
+          </div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary class="faq-question">
+            ¿Cómo llego al local?
+            <span class="faq-arrow">→</span>
+          </summary>
+          <div class="faq-answer">
+            <p>La dirección es <strong>Paseo de Ginebra 35, 28022 San Blas, Madrid</strong>. Puedes llegar en Metro por la <strong>Línea 2 (roja)</strong>, parada <strong>Las Rosas</strong>. También tienes autobuses de la EMT: líneas <strong>140, 153 y E2</strong>.</p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA FINAL
+  ============================================================ -->
+  <section id="cta-final" class="section cta-final">
+    <div class="cta-final__bg">
+      <div class="cta-final__aurora"></div>
+      <div class="cta-final__fire"></div>
+      <div class="cta-final__vignette"></div>
+    </div>
+
+    <div class="container">
+      <div class="cta-final__content">
+        <div class="section-label reveal" style="color: var(--gold);">— La cuenta atrás ha empezado —</div>
+
+        <h2 class="cta-final__title reveal reveal--delay-1">
+          Empieza la<br/><span class="text-gold">cuenta atrás</span>
+        </h2>
+
+        <!-- Mini countdown repeat -->
+        <div class="countdown countdown--small reveal reveal--delay-2" id="countdown2">
+          <div class="countdown-unit">
+            <span class="countdown-value" id="cd2-days">000</span>
+            <span class="countdown-label">días</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <span class="countdown-value" id="cd2-hours">00</span>
+            <span class="countdown-label">horas</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <span class="countdown-value" id="cd2-minutes">00</span>
+            <span class="countdown-label">min</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <span class="countdown-value" id="cd2-seconds">00</span>
+            <span class="countdown-label">seg</span>
+          </div>
+        </div>
+
+        <p class="cta-final__text reveal reveal--delay-3">
+          Las invitaciones llegan antes del <strong>20 de julio</strong>.<br/>
+          Si mereces estar, lo sabrás a tiempo.
+        </p>
+
+        <div class="cta-final__ctas reveal reveal--delay-4">
+          <a href="mailto:?subject=CUBANGABRILAND 2026 — Solicitud de invitación&body=Hola, me gustaría recibir información sobre la invitación para CUBANGABRILAND 2026." class="btn btn--primary btn--large">
+            <span class="btn-icon">✉️</span> Contactar al organizador
+          </a>
+        </div>
+
+        <p class="cta-final__epigraph reveal reveal--delay-5">
+          CUBANGABRILAND 2026<br/>
+          <em>Noche épica. Leyendas reales. Una sola cita.</em>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">CGL<span>2026</span></div>
+        <p class="footer-tagline">El evento más esperado del año.</p>
+        <p class="footer-meta">
+          Sábado 3 de octubre de 2026 · Paseo de Ginebra 35, San Blas, Madrid<br/>
+          Evento privado · Solo por invitación · +20
+        </p>
+        <p class="footer-copy">© 2026 CUBANGABRILAND. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
