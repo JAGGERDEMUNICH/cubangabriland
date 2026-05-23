@@ -212,7 +212,7 @@ strong { font-weight: 700; }
 
 .hero-layer { position: absolute; inset: 0; }
 
-.hero-layer--aurora {
+#hero::before {   content: '';   position: absolute;   inset: 0;   background-image: url('portada-cgl.png');   background-size: cover;   background-position: center top;   opacity: 0.35;   z-index: 0; }
   background:
     radial-gradient(ellipse 80% 60% at 20% 0%, rgba(0,180,255,0.18) 0%, transparent 60%),
     radial-gradient(ellipse 60% 50% at 80% 5%, rgba(0,100,200,0.12) 0%, transparent 55%),
